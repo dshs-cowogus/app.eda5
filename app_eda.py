@@ -202,6 +202,7 @@ REGION_MAP = {
     "전북":"Jeonbuk","전남":"Jeonnam","경북":"Gyeongbuk","경남":"Gyeongnam","제주":"Jeju"
 }
 class EDA:
+    
     def __init__(self):
      top_tabs = st.tabs(["Bike‑Sharing", "Population‑Trends"])
         with top_tabs[0]: self._bike_eda()
